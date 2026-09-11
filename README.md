@@ -84,6 +84,7 @@ A ideia é que embeddings possam complementar a abordagem atual em tarefas que d
 ```text
 AURA-AI/
 ├── README.md
+├── requirements.txt
 ├── notebooks/
 │   └── AuraAI_Challenge_DataScience.ipynb
 └── data/
@@ -110,13 +111,13 @@ git clone https://github.com/victoralves13/AURA-AI.git
 notebooks/AuraAI_Challenge_DataScience.ipynb
 ```
 
-3. Instale as principais bibliotecas utilizadas:
+3. Instale as dependências do projeto:
 
 ```bash
-pip install pandas numpy matplotlib scikit-learn
+pip install -r requirements.txt
 ```
 
-4. Certifique-se de que o arquivo de dados esteja disponível no caminho esperado pelo notebook antes de executar as células.
+4. Certifique-se de que o arquivo `data/DADOS.csv` esteja disponível no caminho esperado pelo notebook antes de executar as células.
 
 ---
 
